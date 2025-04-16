@@ -24,7 +24,7 @@ spec:
         - containerPort: 6379
         resources:
           requests:
-            cpu: 1
+            cpu: 0
         volumeMounts:
         - name: data
           mountPath: /redis-master-data
